@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #161616 !important;
+    color: #fff !important;
+}
+
+nav {
+    background: #000000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+
+nav .icon {
+    vertical-align: middle;
+}
+
+.form {
+    background: #000000;
+
+}
+
+form .icon {
+    cursor: pointer;
+    font-size: 23px;
+    top: 32px;
+    right: 10px;
+}
+
+form input:focus {
+    box-shadow: none !important;
+}
+
+form {
+    width: 36%;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.login a {
+    color: #fff !important;
+}
+
+form input {
+    background: #121212 !important;
+    color: #fff !important;
+}
+
+form input::placeholder {
+    color: #ffffffa6;
+}
+
+button {
+    background: hsl(142, 76%, 50%) !important;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+/* .login a:hover {
+    color: #1fdf64 !important;
+    transition: all 0.3s ease;
+} */
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 100%;
+    }
+}
